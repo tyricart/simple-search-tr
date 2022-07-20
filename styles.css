@@ -1,0 +1,34 @@
+*,
+*::after, 
+*::before {
+    box-sizing: inherit;
+
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(to right, #6a994e, #f2e8cf);
+    background-color:  #75ABBC;
+    color: #bc4749;
+    font-family:'Edu TAS Beginner', cursive;
+
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#input-container {
+    padding: 20px 10px;
+}
+
+table {
+    border: solid antiquewhite;
+    border-width: 2px;
+    text-align: center;
+    margin: auto;
+
+}
+
+th {
+    font-size: 30px;
+}
